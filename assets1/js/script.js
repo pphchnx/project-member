@@ -1,20 +1,11 @@
-/* ============================================================
-   ข้อมูลสมาชิก — แก้ข้อมูลตรงนี้
-   - photo  : path รูปภาพ (ใส่ใน assets/images/about/)
-   - name   : ชื่อ-นามสกุล
-   - role   : บทบาทในโปรเจกต์
-   - id     : รหัสนิสิต
-   - desc   : คำอธิบายตัวเอง
-   - linkedin, instagram, facebook, cv : ลิงก์ (ใส่ # ถ้ายังไม่มี)
-   ============================================================ */
 var members = [
     {
         photo: 'assets1/images/about/a11.jpg',
-        nickname: 'ฝ้าย',       // ← ใส่ชื่อเล่น
-        name: 'พัทนันท์ ทองหล่อ',
+        nickname: 'FAII',
+        name: 'PHATTHANAN THONGLOR',
         role: 'Quality Assurance',
-        id: 'รหัสนิสิต: 67101010680',
-        desc: 'ตรวจสอบคุณภาพระบบ ทดสอบการทำงานของเว็บไซต์ในทุกขั้นตอน เพื่อให้มั่นใจว่าระบบใช้งานได้ถูกต้องและไม่มีข้อผิดพลาด',
+        id: 'ID: 67101010680',
+        desc: 'Responsible for system quality assurance and testing all website functions to ensure the system operates correctly and without errors.',
         linkedin: '#',
         instagram: 'https://www.instagram.com/faiifleurr_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
         facebook: '#',
@@ -22,11 +13,11 @@ var members = [
     },
     {
         photo: 'assets1/images/about/a2.jpg',
-        nickname: 'เนเน่',
-        name: 'ธมลวรรณ เจิมมหานนท์',
+        nickname: 'NAENEA',
+        name: 'THAMONWAN JERMMAHANONT',
         role: 'UI/UX Designer',
-        id: 'รหัสนิสิต: 67101010667',
-        desc: 'ออกแบบประสบการณ์และหน้าตาเว็บไซต์ (UI/UX) ให้ใช้งานง่าย สวยงาม และเหมาะสมกับผู้ใช้งาน',
+        id: 'ID: 67101010667',
+        desc: 'Designed the user interface and user experience to create an intuitive, visually appealing, and user-friendly website.',
         linkedin: '#',
         instagram: 'https://www.instagram.com/juinnae?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
         facebook: '#',
@@ -34,11 +25,11 @@ var members = [
     },
     {
         photo: 'assets1/images/about/a3.jpg',
-        nickname: 'มินนี่',
-        name: 'เขมสิริ แก้วหานาม',
+        nickname: 'MINNIE',
+        name: 'KHEMSIRI KAEWHANAM',
         role: 'Project Manager',
-        id: 'รหัสนิสิต: 67101010659',
-        desc: 'วางแผนและบริหารจัดการโปรเจกต์ ประสานงานภายในทีม และติดตามความคืบหน้าให้เป็นไปตามแผน',
+        id: 'ID: 67101010659',
+        desc: 'Managed project planning, coordinated team activities, and monitored progress to ensure the project stayed on schedule.',
         linkedin: '#',
         instagram: 'https://www.instagram.com/minnie_khn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
         facebook: '#',
@@ -46,11 +37,11 @@ var members = [
     },
     {
         photo: 'assets1/images/about/a4.jpg',
-        nickname: 'คอม',
-        name: 'ภูชนะ วิรัญจะ',
+        nickname: 'COM',
+        name: 'PHUCHANA WIRANCHA',
         role: 'Full-Stack Developer',
-        id: 'รหัสนิสิต: 67101010685',
-        desc: 'พัฒนาเว็บไซต์ทั้งส่วนหน้าและหลังบ้าน รวมถึงเชื่อมต่อฐานข้อมูลและดูแลการทำงานของระบบโดยรวม',
+        id: 'ID: 67101010685',
+        desc: 'Developed both the frontend and backend of the website, integrated the database, and maintained the overall system functionality.',
         linkedin: '#',
         instagram: 'https://www.instagram.com/pphchnx?igsh=MWh3YTlmcDd3OTk0dA==',
         facebook: '#',
@@ -58,11 +49,11 @@ var members = [
     },
     {
         photo: 'assets1/images/about/a5.jpg',
-        nickname: 'ขวัญข้าว',
-        name: 'ธัญรดี สุรกิจพิบูลย์',
+        nickname: 'KWANKAO',
+        name: 'TANRADEE SURAKITPIBOON',
         role: 'Frontend Developer',
-        id: 'รหัสนิสิต: 67101010668',
-        desc: 'พัฒนาส่วนแสดงผลของเว็บไซต์ (Frontend) ให้ตรงตามแบบ และรองรับการใช้งานบนอุปกรณ์ต่าง ๆ',
+        id: 'ID: 67101010668',
+        desc: 'Developed the frontend interface and ensured the website was responsive and compatible across different devices.',
         linkedin: '#',
         instagram: 'https://www.instagram.com/tttrxdee?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
         facebook: '#',
@@ -70,17 +61,27 @@ var members = [
     },
     {
         photo: 'assets1/images/about/a6.jpg',
-        nickname: 'พัชชา',
-        name: 'พัชรภา เกิดวิชิต',
+        nickname: 'PATCHA',
+        name: 'PATCHARAPA KERDVICHIT',
         role: 'Backend Developer',
-        id: 'รหัสนิสิต: 67101010679',
-        desc: 'พัฒนาระบบหลังบ้าน (Backend) จัดการฐานข้อมูล และสร้างฟังก์ชันการทำงานของระบบ',
+        id: 'ID: 67101010679',
+        desc: 'Developed the backend system, managed the database, and implemented the core functionalities of the application.',
         linkedin: '#',
         instagram: 'https://www.instagram.com/pppatchaa_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
         facebook: '#',
         cv: '../assets/cv/member6.pdf'
     }
 ];
+
+function prevMember() {
+    var prevIdx = (current - 1 + members.length) % members.length;
+    hoverMember(prevIdx);
+}
+
+function nextMember() {
+    var nextIdx = (current + 1) % members.length;
+    hoverMember(nextIdx);
+}
 
 var current = -1;
 var hideTimer = null;
@@ -116,12 +117,11 @@ function hoverMember(idx) {
     // สร้าง detail panel
     var panel = document.getElementById('detailPanel');
     panel.innerHTML =
+        '<button class="nav-arrow prev" onclick="prevMember()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg></button>' +
+        '<button class="nav-arrow next" onclick="nextMember()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></button>' +
         '<div class="detail-photo-wrap">' +
         '<img src="' + m.photo + '" alt="' + m.name + '" onerror="this.src=\'assets/images/t.jpg\'">' +
-        '<label class="change-photo-btn" title="เปลี่ยนรูป" style="cursor:pointer;">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>' +
-        '<span>เปลี่ยนรูป</span>' +
-        '</label>' +
+
         '</div>' +
         '<div class="detail-info">' +
         (m.nickname ? '<div class="detail-nickname">" ' + m.nickname + ' "</div>' : '') +
